@@ -31,7 +31,8 @@
       Utilities  --->  
          <*> install-program
       ```
-   3、编译完成之后使用本源码制作镜像写入U盘启动，之后执行 `n1-install` 即可安装到emmc
+   3、编译完成之后使用本源码制作镜像写入U盘启动，之后执行 `n1-install` 即可安装到emmc  
+   4、将固件上传到 `/tmp/upgrade`( xxx.img )，之后执行 `n1-update` 即可从该固件升级
 
 3. 克隆仓库到本地  
    `git clone https://github.com/tuanqing/mknop` 
